@@ -19,7 +19,7 @@
 }
 .logo {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .list {
@@ -29,4 +29,16 @@
   gap: 50px;
   list-style: none;
   font-size: 17px;
+  cursor: pointer;
+}
+.button {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  width: 5vw;
+  height: 2vw;
+  border: 2px;
+  border-radius: 5px;
+  cursor: pointer;
 }
