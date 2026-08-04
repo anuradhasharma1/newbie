@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: black;
+  color: white;
+  width: full;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50vw;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  font-size: 17px;
+}
